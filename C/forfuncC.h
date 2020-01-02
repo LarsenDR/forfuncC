@@ -4,3 +4,4 @@
 #include <string.h>
 
 float basalarea( float dia[], float wt[], char unittype[]);
+float acornwt(float dbh, char* species);
