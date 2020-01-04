@@ -3,8 +3,7 @@
 #include "forfuncC.h"
 
 // Function to calculate mean acorn weight (in lb) from dbh and species and trees per acre.
-float acornwt(float dbh, char* species)
-{
+float acornwt(float dbh, char* species){
   float acnwt;
   if( (!strcmp(species, "black") && (dbh > 9.9) && (dbh < 36.1) )){
     acnwt = -1.9065 + 0.2973 * dbh;
